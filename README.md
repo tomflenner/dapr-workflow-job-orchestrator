@@ -7,11 +7,15 @@
    ```bash
    docker network create workflow-network
    ```
-2. Bring up the containers:
+2. Build the job image:
+   ```bash
+   docker build -t dummy-workflow-job . -f DummyWorkflowJob/Dockerfile 
+   ```
+3. Bring up the containers:
    ```bash
    docker compose up -d
    ```
-3. View logs:
+4. View logs:
    ```bash
    docker compose logs -f
    ```
