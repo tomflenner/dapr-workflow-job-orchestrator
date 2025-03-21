@@ -50,3 +50,7 @@ sequenceDiagram
 ```
 
 We are using ID as `ExternalEvent` to ensure uniqueness of a job, we can easily imagine launching N job at the same time to parallelise the work and wait for all of them to be completed before resuming the workflow.
+
+## Thanks :
+- [olitomlinson](https://github.com/olitomlinson) for the first github repository that helped me to POC this -> https://github.com/olitomlinson/dapr-workflows-scheduled-job-runner/tree/main?tab=readme-ov-file
+- [WhitWaldo](https://github.com/WhitWaldo) for answering all my questions all day and night 🤣
